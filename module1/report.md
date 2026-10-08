@@ -16,10 +16,11 @@
 | `GET` | `/health` | Проверяет доступность и базовое состояние сервиса (health check). |
 | `GET` | `/products` | Возвращает список всех доступных товаров. |
 | `GET` | `/products/{product_id}` | Возвращает детальную информацию о конкретном товаре по его ID. |
-
 Какие технологии использованы:
 Python, FastAPI, Locust, Uvicorn
+
 2. **Параметры тестов:** 
+
 3. **Результаты:**
 | Тест | Users | Spawn Rate | RPS | p50 | p95 | p99 | Error rate | Duration |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -28,15 +29,15 @@ Python, FastAPI, Locust, Uvicorn
 | C | 100 | 10 | 48.52 | 1 | 2 | 2000 | 0 | 2.47 |
 
 4. **Графики:**
-Тест A
+**Тест A**
 ![](charts/image.png)
 ![](charts/image-1.png)
 
-Тест B
+**Тест B**
 ![](charts/image-2.png)
 ![](charts/image-3.png)
 
-Тест C
+**Тест C**
 ![](charts/image-4.png)
 ![](charts/image-5.png)
 
