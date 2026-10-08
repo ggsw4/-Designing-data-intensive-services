@@ -308,6 +308,7 @@ class ShopUser(HttpUser):
 
 ```bash
 locust --host=http://localhost:8000
+
 ```
 
 **3.3. Откройте веб-интерфейс:**
